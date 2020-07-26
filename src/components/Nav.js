@@ -21,7 +21,7 @@ export default class Nav extends Component {
               <Link className="link" to="/about">
                 About
           </Link>
-              <Link className="link" to="/work">
+              <Link className="link" to="/portfolio">
                 Portfolio
           </Link>
               <Link className="link" to="/contact">
@@ -30,32 +30,28 @@ export default class Nav extends Component {
         
         </div>
         <div class="nav">
-        <a href="javascript:void(0);" class="icon"
-          onClick={() => { this.setState({ toggle: !this.state.toggle }) }}>
-          <i class="fa fa-bars"></i>
-          {this.state.toggle
-            ?
-            <div id="myLinks">
-              <Link className="link" to="/">
-                Home
-          </Link>
-              <Link className="link" to="/about">
-                About
-          </Link>
-              <Link className="link" to="/work">
-                Portfolio
-          </Link>
-              <Link className="link" to="/contact">
-                Contact
-          </Link>
-        
-            </div>
-            :
-            null
-          }
-          </a>
-          </div>
+      <div class="page">
+      <div class="hamburger">
+        <input type="checkbox" id="nav-toggle"/>
+          <label for="nav-toggle">
+            <span class="toggle-words"><i class="fa fa-bars" id="bar"></i></span>
+          </label>
+      <div class="menu">
+            <ul>
+              <li><Link to="/events" class="nav-link"
+                onClick={() => document.getElementById("nav-toggle").checked = false}>Home</Link></li>
+              <li><Link to="/about" class="nav-link"
+                onClick={() => document.getElementById("nav-toggle").checked = false}>About</Link></li>
+              <li><Link to="/portfolio" class="nav-link"
+                onClick={() => document.getElementById("nav-toggle").checked = false}>Portfolio</Link></li>
+              <li><Link to="/contact" class="nav-link"
+                onClick={() => document.getElementById("nav-toggle").checked = false}>Contact</Link></li>
+        </ul>
       </div>
+      </div>
+      </div> 
+        </div>
+        </div>
     )
   }
 }           

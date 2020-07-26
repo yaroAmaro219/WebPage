@@ -146,7 +146,7 @@ div.work-piece:hover {
 
 p.highlights {
   /* width: 400px; */
-  margin: 0 40px;
+  /* margin: 0 40px; */
 }
 
 .large-svg {
@@ -276,6 +276,10 @@ a:-webkit-any-link {
   text-transform: uppercase;
 }
 
+.hello {
+  text-transform: uppercase;
+}
+
 .name {
   display: flex;
   flex-direction: row;
@@ -285,7 +289,7 @@ a:-webkit-any-link {
 
 .home-feature {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -320,8 +324,13 @@ img.image {
   /* justify-content: center;
   align-items: center; */
   background: transparent;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-content: center;
+}
+
+.octago {
+  width: 66%;
+
 }
 
 .about-main {

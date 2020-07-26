@@ -10,6 +10,7 @@ import Home from "./components/Home";
 import Blog from "./components/Blog";
 import Image from "./LogoAA.svg";
 import "./App.css";
+import './styles/nav.css'
 
 const App = () => {
   return (
@@ -79,7 +80,7 @@ const App = () => {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/work">
+        <Route exact path="/portfolio">
           <Work />
         </Route>
         <Route exact path="/contact">
