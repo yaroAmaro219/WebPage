@@ -38,7 +38,7 @@ export default class Nav extends Component {
           </label>
       <div class="menu">
             <ul>
-              <li><Link to="/events" class="nav-link"
+              <li><Link to="/" class="nav-link"
                 onClick={() => document.getElementById("nav-toggle").checked = false}>Home</Link></li>
               <li><Link to="/about" class="nav-link"
                 onClick={() => document.getElementById("nav-toggle").checked = false}>About</Link></li>

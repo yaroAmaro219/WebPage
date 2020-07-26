@@ -2,7 +2,7 @@
   display: flex;
   margin-right: auto;
   padding: 27px;
-  position: fixed;
+  /* position: fixed; */
   height: 100%;
 }
 
@@ -28,6 +28,12 @@
   display: block;
   transition: .5s transform;
   transition-timing-function: cubic-bezier(.38, .52, .37, 1.27);
+}
+
+.nav-web {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 a {
@@ -58,7 +64,9 @@ a {
   right: -100%;
   top: 0;
   height: 100%;
-  width: 250px;
+  /* width: 250px; */
+  display: flex;
+  justify-content: center;
 }
 
 #nav-toggle ~ label {
@@ -78,8 +86,8 @@ a {
 #nav-toggle:checked ~ label {
   background-color: grey;
   color: white;
-  -webkit-transform: translateX(-250px);
-          transform: translateX(-250px);
+  -webkit-transform: translateX(-175px);
+          transform: translateX(-175px);
 }
 #nav-toggle:checked ~ label::before {
   content: "Close";
@@ -120,6 +128,12 @@ a {
   top: 20px;
   right: 20px;
   display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
 }
 
 li {
