@@ -64,13 +64,13 @@ a {
   right: -100%;
   top: 0;
   height: 100%;
-  /* width: 250px; */
+  width: 250px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 
 #nav-toggle ~ label {
-  display: block;
+  display: none;
   -webkit-transition: .5s transform;
   transition: .5s transform;
   -webkit-transition-timing-function: cubic-bezier(0.38, 0.52, 0.37, 1.27);
@@ -86,8 +86,8 @@ a {
 #nav-toggle:checked ~ label {
   background-color: grey;
   color: white;
-  -webkit-transform: translateX(-175px);
-          transform: translateX(-175px);
+  -webkit-transform: translateX(-150px);
+          transform: translateX(-150px);
 }
 #nav-toggle:checked ~ label::before {
   content: "Close";
@@ -102,7 +102,7 @@ a {
 
 .menu {
   cursor: pointer;
-  background-color: #9D9955;
+  background-color: #4b88c2;
   -webkit-transition: .53s transform;
   transition: .53s transform;
   -webkit-transition-timing-function: cubic-bezier(0.38, 0.52, 0.37, 1);
@@ -133,6 +133,10 @@ a {
 @media only screen and (max-width: 600px) {
   .nav {
     display: none;
+  }
+
+  #nav-toggle ~ label {
+    display: block !important;
   }
 }
 

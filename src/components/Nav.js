@@ -18,15 +18,15 @@ export default class Nav extends Component {
               {/* <Link className="link" to="/">
                 Home
           </Link> */}
-              <Link className="link" to="/about">
+              <a className="link" href="#about">
                 About
-          </Link>
-              <Link className="link" to="/portfolio">
+          </a>
+              <a className="link" href="#portfolio">
                 Portfolio
-          </Link>
-              <Link className="link" to="/contact">
+          </a>
+              <a className="link" href="#contact">
                 Contact
-          </Link>
+          </a>
         
         </div>
         <div class="nav">
@@ -38,14 +38,14 @@ export default class Nav extends Component {
           </label>
       <div class="menu">
             <ul>
-              <li><Link to="/" class="nav-link"
-                onClick={() => document.getElementById("nav-toggle").checked = false}>Home</Link></li>
-              <li><Link to="/about" class="nav-link"
-                onClick={() => document.getElementById("nav-toggle").checked = false}>About</Link></li>
-              <li><Link to="/portfolio" class="nav-link"
-                onClick={() => document.getElementById("nav-toggle").checked = false}>Portfolio</Link></li>
-              <li><Link to="/contact" class="nav-link"
-                onClick={() => document.getElementById("nav-toggle").checked = false}>Contact</Link></li>
+              <li><a href="/" class="nav-link"
+                onClick={() => document.getElementById("nav-toggle").checked = false}>Home</a></li>
+              <li><a href="#about" class="nav-link"
+                onClick={() => document.getElementById("nav-toggle").checked = false}>About</a></li>
+              <li><a href="#portfolio" class="nav-link"
+                onClick={() => document.getElementById("nav-toggle").checked = false}>Portfolio</a></li>
+              <li><a href="#contact" class="nav-link"
+                onClick={() => document.getElementById("nav-toggle").checked = false}>Contact</a></li>
         </ul>
       </div>
       </div>
