@@ -84,7 +84,6 @@ const App = () => {
         <div class="about-main">
         {/* <img class="image" src={Image} /> */}
           <div class="text">
-              <h3>I'm Artemie</h3>
               <a class="subtitle"></a>
             <p class="blurb">
               I am a Software Engineer specializing in React and Ruby on Rails frameworks. I greatly value interpersonal skills and seek to maintain friendly, charismatic and peaceful relations in all endeavours. As a highly motivated and goal-oriented person, I seek to join a forward thinking company which reflects these values.
