@@ -220,7 +220,7 @@ canvas {
 }
 
 .youtube {
-  width: 444px;
+  width: 333px;
   height: 222px;
   cursor: pointer;
 }
@@ -358,12 +358,18 @@ img.image {
   width: 66%;
 }
 
+.tennis-ball {
+  width: 99px;
+  padding-bottom: 18px;
+}
+
 .about-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 66%;
+  width: 77%;
+  text-align: justify;
 }
 
 .subtitle {
@@ -444,6 +450,9 @@ div.work a {
   .header {
     border-bottom: none;
     justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: whitesmoke;
   }
 
   .social {
@@ -479,7 +488,7 @@ div.work a {
   }
 
   #about {
-    padding: 36px !important;
+    padding: 81px 36px !important;
   }
 
   .home-feature {
@@ -521,6 +530,7 @@ div.work a {
 
   .portfolio {
     width: 330px;
+    justify-content: center;
   }
 
   nav.nav {
@@ -537,6 +547,7 @@ div.work a {
     text-align: left;
     margin-top: 15px;
     margin-bottom: 15px;
+    text-align: justify;
   }
 
   p {
@@ -558,7 +569,7 @@ div.work a {
   }
 
   .contact {
-    padding: 18px !important;
+    padding: 45px !important;
   }
 
   .hello {

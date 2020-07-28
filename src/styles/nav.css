@@ -64,7 +64,7 @@ a {
   right: -100%;
   top: 0;
   height: 100%;
-  width: 250px;
+  width: 200px;
   display: flex;
   justify-content: start;
 }
@@ -86,8 +86,8 @@ a {
 #nav-toggle:checked ~ label {
   background-color: grey;
   color: white;
-  -webkit-transform: translateX(-150px);
-          transform: translateX(-150px);
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
 }
 #nav-toggle:checked ~ label::before {
   content: "Close";

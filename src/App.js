@@ -9,6 +9,7 @@ import Resume from "./components/Resume";
 import Home from "./components/Home";
 import Blog from "./components/Blog";
 import Image from "./LogoAA.svg";
+import Ball from './Tennis-Ball-Download-Free-PNG.png'
 import Coca from './components/Favicon_Icon.svg'
 import Tennis from './Screen Shot 2020-07-09 at 4.30.18 PM.png'
 import Youtube from './Screen Shot 2020-07-16 at 8.25.05 AM.png'
@@ -85,8 +86,10 @@ const App = () => {
           <div class="text">
               <h3>I'm Artemie</h3>
               <a class="subtitle"></a>
-              <p class="blurb">
-                Currently looking to join a company or team where I can grow as a web engineer. I intend to follow a career in full-stack development long term. I am happy to start with either a front or back-end specific role. I am most comfortable with React, Flask and Rails frameworks, and PostgreSQL and MongoDB databases. Prior to embraking on my web development journey, I attained a bachelor's degree in Finance. I attended The Citadel (Military School) for two years and am a highschool National Champion and All-American.
+            <p class="blurb">
+              I am a Software Engineer specializing in React and Ruby on Rails frameworks. I greatly value interpersonal skills and seek to maintain friendly, charismatic and peaceful relations in all endeavours. As a highly motivated and goal-oriented person, I seek to join a forward thinking company which reflects these values.
+               
+              Currently looking to join a company or team where I can grow as a web engineer. I intend to follow a career in full-stack development long term. I am happy to start with either a front or back-end specific role. I am most comfortable with React, Flask and Rails frameworks, and PostgreSQL and MongoDB databases. Prior to embraking on my web development journey, I attained a bachelor's degree in Finance. I attended The Citadel (Military School) for two years and I am a highschool National Champion and All-American for tennis.
               </p>
             </div>
             <h3 class="feature">As Seen In:</h3>
@@ -112,8 +115,9 @@ const App = () => {
           </div>
         <div className="portfolio">
         <div class="work-piece">
-              {/* <img class="octago" src={octago} /> */}
-          <a target="_blank" rel="noopener noreferrer" class="work" href="http://tenniscoachesofnyc.com/">
+              
+            <a target="_blank" rel="noopener noreferrer" class="work" href="http://tenniscoachesofnyc.com/">
+            <img class="tennis-ball" src={Ball} />
             Tennis Camp
               </a>
           <a target="_blank" rel="noopener noreferrer" class="css-13nadwe" class="work" href="https://github.com/yaroAmaro219/Tennis-Camp">
@@ -125,7 +129,7 @@ const App = () => {
             </div>
             <div class="work-piece">
               <img class="octago" src={octago} />
-          <a target="_blank" rel="noopener noreferrer" class="css-13nadwe" class="work" href="#">
+          <a target="_blank" rel="noopener noreferrer" class="css-13nadwe" class="work" href="http://octago.surge.sh/">
             OctaGo
               </a>
           <a target="_blank" rel="noopener noreferrer" class="css-13nadwe" class="work" href="https://github.com/yaroAmaro219/OctaGo">
@@ -137,12 +141,13 @@ const App = () => {
             </div>
           <div className="work-piece">
             <div class="info">
-              <img class="large-svg" src={Coca} />
+              
               <div class="work-link">
                 <a
                   target="_blank" rel="noopener noreferrer" class="css-13nadwe"
                   class="work"
                   href={(`http://www.cocarecommunity.com/`)}>
+                  <img class="large-svg" src={Coca} />
                   Corona Care
                   </a>
                 <a target="_blank" rel="noopener noreferrer" class="css-13nadwe" class="work" href="https://github.com/yaroAmaro219/Carona-Care">
