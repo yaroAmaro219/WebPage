@@ -1,19 +1,19 @@
 {
   "short_name": "Artemie Amari",
-  "name": "Artemie Amari",
+  "name": "Artemie Amari | Software Engineer",
   "icons": [
     {
-      "src": "IMG_1070.jpeg",
+      "src": "LogoAA.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "IMG_1070.jpeg",
+      "src": "LogoAA.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "IMG_1070.jpeg",
+      "src": "LogoAA.png",
       "type": "image/png",
       "sizes": "512x512"
     }
