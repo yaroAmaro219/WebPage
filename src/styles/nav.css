@@ -64,9 +64,9 @@ a {
   right: -100%;
   top: 0;
   height: 100%;
-  width: 200px;
+  width: 180px;
   display: flex;
-  justify-content: start;
+  justify-content: center;
 }
 
 #nav-toggle ~ label {
@@ -126,7 +126,7 @@ a {
 .hamburger {
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 45px;
   display: inline-block;
 }
 

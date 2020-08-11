@@ -214,6 +214,14 @@ svg {
   padding: 0;
 }
 
+.social-nav {
+  fill: white !important;
+  margin: 0 10px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+}
+
 .social.s {
   padding: 9px;
 }
@@ -234,6 +242,13 @@ canvas {
   margin-left: 4vw;
 }
 
+.htv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .tennis {
   width: 444px;
   height: 333px;
@@ -244,6 +259,8 @@ canvas {
   width: 333px;
   height: 222px;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #myLinks {
@@ -314,9 +331,14 @@ a:-webkit-any-link {
 }
 
 .welcome {
-  margin: 2vw;
+  margin: 2vw 0 0 2vw;
   color: black;
-
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+  white-space: nowrap;
+  /* display:block; */
+  /* width:180px; */
+  /* min-width:1px; */
 }
 
 
@@ -462,6 +484,7 @@ div.work a {
 @media only screen and (max-width: 600px) {
   .App {
     width: auto;
+    overflow: hidden;
   }
 
   .logo-image {
@@ -470,7 +493,13 @@ div.work a {
   }
 
   .tennis {
-    width: 333px;
+    width: 333px !important;
+    height: unset !important;
+  }
+
+  .youtube {
+    width: 233px !important;
+    height: unset !important;
   }
 
   .link {
@@ -576,7 +605,7 @@ div.work a {
 
   p.highlights {
     margin: 15px 15px;
-    /* text-align: justify; */
+    text-align: start;
   }
 
   p.blurb {
@@ -597,13 +626,13 @@ div.work a {
   }
 
   .work-piece {
-    width: 270px !important;
+    width: 240px !important;
     height: unset !important;
     margin-top: 18px !important;
   }
 
-  h1 {
-    font-size: 27px;
+  h1.intro {
+    font-size: 23px;
   }
 
   .portfolio-container {
