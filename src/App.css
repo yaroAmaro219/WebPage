@@ -331,7 +331,7 @@ a:-webkit-any-link {
 }
 
 .welcome {
-  margin: 2vw 0 0 2vw;
+  margin: 2vw 0 0 5vw;
   color: black;
   overflow: hidden;
   /* text-overflow: ellipsis; */
@@ -626,7 +626,7 @@ div.work a {
   }
 
   .work-piece {
-    width: 240px !important;
+    width: 270px !important;
     height: unset !important;
     margin-top: 18px !important;
   }
