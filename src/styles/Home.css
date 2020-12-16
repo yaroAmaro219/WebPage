@@ -1,0 +1,39 @@
+.main-btn-container {
+  display: flex;
+  padding-top: 333px;
+}
+
+.home1 {
+  background-color: white;
+  color: black;
+  width: 100%;
+  min-height: 300px;
+  margin-top: 216px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+  padding: 18px 81px;
+}
+
+.button-home-container {
+  padding-top: 166px;
+}
+
+.standout {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 850px) {
+  .main-btn-container {
+    display: none;
+  }
+
+  .home1 {
+    padding: 18px;
+    min-height: 200px;
+  }
+}
