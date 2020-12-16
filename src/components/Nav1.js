@@ -46,7 +46,7 @@ function Nav1 () {
     </div>
     <div style={navtext} class='nav-text'>
 <div class="dropdown">
-        <a style={style2} class='link' href='/begin'>Services</a>
+        <a style={style2} class='link' href='/services'>Services</a>
         <div class="dropdown-content">
           <div class="dropdown-content1">
             <div class='dropdown-column'>

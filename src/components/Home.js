@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Nav from './Nav1'
 
 export default class Home1 extends Component {
   
@@ -7,9 +6,8 @@ export default class Home1 extends Component {
     return (
       <>
       <div class='home-container'>
-        <Nav />
          <div class="vimeo-wrapper">
-          {/* <iframe src="https://player.vimeo.com/video/491371357?background=1&autoplay=1&loop=1&byline=0&title=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> */}
+          <iframe src="https://player.vimeo.com/video/491371357?background=1&autoplay=1&loop=1&byline=0&title=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
         <div class='title-container'>
           <h1 class='title'>Find your story.</h1>
@@ -41,7 +39,7 @@ export default class Home1 extends Component {
           <div class='home-content1-1'>
           <p class='home-p'>Storytelling requires two things above all: bravery and honesty. But when the subject is yourself, sometimes you can’t see the forest for the trees. 
 
-            What do I do? I’m an expert researcher and interviewer. My work includes one major biography (forthcoming from Duke University Press) and two ghostwritten memoirs.</p>
+            </p>
 
             <p class='home-p'>Why do you need a partner? There are many reasons. For one, as all diarists know, there are few things more therapeutic than writing about one’s day. Another I             particularly like is that oftentimes we forget the best things about ourselves. 
 

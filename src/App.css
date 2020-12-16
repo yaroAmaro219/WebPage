@@ -5,11 +5,7 @@
   /* min-height: 100vw; */
 }
 
-.contact1 {
-  text-align: start;
-  color: black;
-  padding: 0 81px;
-}
+
 
 .contact11{
   transition: 1s ;
@@ -302,11 +298,7 @@ video {
   z-index: 999;
 }
 
-.inputs {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
+
 
 #location {
   padding: 36px 270px;
@@ -353,10 +345,6 @@ video {
     align-items: center;
     justify-content: center;
     border-left: 0.01px solid white;
-  }
-
-  .contact1 {
-    padding: 0 18px;
   }
 
   .container {

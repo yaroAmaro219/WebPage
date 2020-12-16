@@ -19,9 +19,9 @@ const Menu = ({ open, ...props }) => {
           {/* <img class='arrow' src={drop} /> */}
         </span>
         </div>
-      <a href="/portfolio" tabIndex={tabIndex}>
+      <a href="/insights" tabIndex={tabIndex}>
         <span aria-hidden="true"></span>
-        How We Work
+        Insights
       </a>
       <a href="/about" tabIndex={tabIndex}>
        About 

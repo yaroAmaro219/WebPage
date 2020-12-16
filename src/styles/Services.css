@@ -1,10 +1,10 @@
-.insights-container {
+.services-page {
   padding: 99px 18px;
-  min-height: 33em;
   background-image: url("../images/IMG_1087.JPG");  
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 777px;
   display: flex;
   justify-content: center;
   align-items: center;
