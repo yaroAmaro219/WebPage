@@ -10,6 +10,8 @@ import Insights from './components/Insights'
 import './styles/Footer.css'
 import './styles/Home.css'
 import './styles/Nav.css'
+import './styles/Contact.css'
+import './styles/Insights.css'
 import './App.css'
 
 
@@ -20,10 +22,8 @@ class App extends Component {
     this.state = {
       name: ''
     }
-}
-
+  }
   
-    
   render() {
     return (
       <div>

@@ -42,7 +42,7 @@ function Nav1 () {
   <div style={style} class="nav-container">
     <div class='title1-container'>
       <a style={style2} class='nav-title' href='/'>Jack Pickering </a>
-      <a style={style2} class='nav-title1' href='/'>Ghostwriting Services</a>
+      <a style={style2} class='nav-title1' href='/'>Ghostwriter</a>
     </div>
     <div style={navtext} class='nav-text'>
 <div class="dropdown">

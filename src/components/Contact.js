@@ -28,9 +28,8 @@ export default class Contact extends Component {
         <Nav/>
       <div class='page1'>
         <div class='contact1'>
-          <h2>Awesomeness awaits!</h2>
-          <h3>Let's Connect
-          </h3>
+            <h2 class='contact-title'>Every Great Project</h2>
+            <h2 class='contact-title'>Begins with a great brainstorm</h2>
           <div class='inputs'>
             <h3 class='input-name'>Name:</h3>
             <input class='input1' placeholder='Name' onChange={this.handleChange} />

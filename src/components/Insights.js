@@ -4,7 +4,7 @@ import Nav from './Nav2'
 export default class Insights extends Component {
   render() {
     return (
-      <div class='page1'>
+      <div class='insights-container'>
         <Nav />
         <h1>Insighs</h1>
       </div>

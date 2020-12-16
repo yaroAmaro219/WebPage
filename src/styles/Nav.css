@@ -25,15 +25,17 @@
   white-space: nowrap;
   text-transform: uppercase;
   color: gray;
+  
   /* margin-right: auto; */
 }
 
 .nav-title {
   text-decoration: none;
   font-weight: 900;
-
+  font-size: x-large;
   white-space: nowrap;
   text-transform: uppercase;
+  transition: .5s;
   /* margin-right: auto; */
 }
 
@@ -41,9 +43,10 @@
   text-decoration: none;
   font-weight: 900;
   color: white;
+  font-size: medium;
   white-space: nowrap;
   text-transform: uppercase;
-  font-size: x-small;
+  transition: .5s;
   /* margin-right: auto; */
 }
 
@@ -198,7 +201,6 @@
 
 #bar {
   color: white;
-
   display: block;
   transition: .5s transform;
   transition-timing-function: cubic-bezier(.38, .52, .37, 1.27);
