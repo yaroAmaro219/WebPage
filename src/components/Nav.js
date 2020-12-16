@@ -6,7 +6,6 @@ import { theme } from '../theme';
 import Burger from './Burger';
 import Menu from './Menu'
 import FocusLock from 'react-focus-lock'
-import useWindowScrollPosition from "@rehooks/window-scroll-position";
 
 
 function Nav() {

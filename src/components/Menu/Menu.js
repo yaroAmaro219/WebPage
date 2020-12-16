@@ -14,7 +14,7 @@ const Menu = ({ open, ...props }) => {
     <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
       <div class='dropdown-title'>
       <a href="/services" tabIndex={tabIndex}>
-        Services</a>
+        + Services</a>
         <span aria-hidden="true">
           {/* <img class='arrow' src={drop} /> */}
         </span>
@@ -24,11 +24,11 @@ const Menu = ({ open, ...props }) => {
         How We Work
       </a>
       <a href="/about" tabIndex={tabIndex}>
-       About Us
+       About 
         </a>
-        <a href="/team" tabIndex={tabIndex}>
+        {/* <a href="/team" tabIndex={tabIndex}>
        Our Team
-        </a>
+        </a> */}
       <a href="/contact" tabIndex={tabIndex}>
         <span aria-hidden="true"></span>
         Contact

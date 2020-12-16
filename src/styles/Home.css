@@ -17,6 +17,31 @@
   padding: 18px 81px;
 }
 
+.home-sub-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 56px;
+  letter-spacing: -0.003em;
+  line-height: 0.88em;
+  font-weight: 800;
+  /* transform: scale(1, 1.3);
+  transform: scale(1, 1.1); */
+}
+
+.page-title1 {
+  display: flex;
+  width: 100%;
+  color: White;
+  /* margin: 0; */
+  padding: 9px 18px;
+  text-align: center;
+  text-transform: capitalize;
+  justify-content: center;
+}
+
 .button-home-container {
   padding-top: 166px;
 }
@@ -27,6 +52,41 @@
   align-items: flex-start;
 }
 
+.home-container{
+  background-image: url("../images/IMG_0382.jpg");  
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+  -webkit-background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: black;
+  background-position: 90% -11vw;
+}
+
+.title-container {
+  padding: 96px 81px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+
+.home-content1 {
+  display: flex;
+  padding: 18px 81px;
+}
+
+
 @media screen and (max-width: 850px) {
   .main-btn-container {
     display: none;
@@ -36,4 +96,34 @@
     padding: 18px;
     min-height: 200px;
   }
+
+  .home-container {
+    flex-direction: column;
+    height: 777px !important;
+    background-position: 50%  !important;
+  }
+
+  .home-sub-content {
+    display: none;
+  }
+
+  .title-container {
+    padding: 111px 15px 0px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    color: #464646;
+  }
+
+  .title {
+    width: 100%;
+    font-size: 42px !important;
+  }
+
+.page-title1 {
+  padding-top: 279px !important;
+  text-align: start;
+}
 }

@@ -29,7 +29,7 @@ function Nav1 () {
   };
  
  let style2 = {
-   color: change ? "#464646" : "white", 
+   color: change ? "#464646" : "#464646", 
  }
 
  let navtext = {

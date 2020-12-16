@@ -27,6 +27,7 @@
 
 .social {
   padding-right: 18px;
+  
 }
 
 .footer {
@@ -34,8 +35,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-color: #06A755;
-  padding: 36px 270px;
+  padding: 36px 270px ;
+  background-color: #4dc775;
   color: white;
 }
 
@@ -53,7 +54,7 @@
   }
   .footer {
     width: 100%;
-    padding: 36px 0px !important;
+    padding: 36px 15px 72px !important;
   }
 
   .footer-copyright {
