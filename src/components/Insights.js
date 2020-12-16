@@ -6,7 +6,7 @@ export default class Insights extends Component {
     return (
       <div class='insights-container'>
         <Nav />
-        <h1>Insighs</h1>
+        <h1>Insights</h1>
       </div>
     )
   }

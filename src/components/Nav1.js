@@ -21,7 +21,7 @@ function Nav1 () {
   let style = {
     backgroundColor: change ? "white" : "transparent",
     transition: ".3s ease",
-    height: "69px",
+    height: "99px",
     position: "fixed",
     right: 0,
     left: 0,
