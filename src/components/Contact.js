@@ -29,6 +29,7 @@ export default class Contact extends Component {
       <div class='contact-page-container'>
         <div class='contact1'>
             <h2 class='contact-title'>Every Great Project Begins with a great brainstorm</h2>
+            <form>
           <div class='inputs'>
               <h3 class='input-name'>Name*</h3>
               <div class='contact-name'>
@@ -47,8 +48,9 @@ export default class Contact extends Component {
               <textarea class='comments' placeholder='Type your message here...' onChange={this.handleChange} />
               <>
                 <Button variant="outline-primary" size="lg">Primary</Button>{' '}
-              </>
-          </div>
+                </>
+              </div>
+              </form>
           {/* <div class='contact3'>
             <h2>Brooklyn, New York 219 19th Street 11232</h2>
           <h1><a class='phone' href='tel:3474006623'>347-400-6623</a></h1>
