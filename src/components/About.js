@@ -10,7 +10,7 @@ export default class About extends Component {
 
           <h1 class='about-title'>About</h1>
           <div class='about-content'>
-            <p>What do I do? I’m an expert researcher and interviewer. My work includes one major biography (forthcoming from Duke University Press) and two ghostwritten memoirs.</p>
+            <p>What do I do? I’m an expert photographer. My work includes one major photography for different models and clothing lines.</p>
           </div>
         </div>
         </div>

@@ -64,12 +64,24 @@
 
   overflow: hidden;
   -webkit-background-size: cover; */
+  background-image: url("../images/pexels-maria-orlova-4947568.jpg");
+  background-attachment: scroll;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   color: black;
   background-position: 90% -11vw;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  background-position: 50% ;
 }
 
 .home-p {

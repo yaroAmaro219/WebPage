@@ -6,13 +6,16 @@ export default class Home1 extends Component {
     return (
       <>
       <div class='home-container'>
-         <div class="vimeo-wrapper">
+         {/* <div class="vimeo-wrapper">
           <iframe src="https://player.vimeo.com/video/491371357?background=1&autoplay=1&loop=1&byline=0&title=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
+        </div> */}
+          <div class='home-background'>
+            
+          </div>
         <div class='title-container'>
-          <h1 class='title'>Find your story.</h1>
+          {/* <h1 class='title'>Find Your Shot</h1> */}
           <div class='home-sub-content'>
-          <h3 class='page-title1'>Professional Ghostwriting Services in New York</h3>
+          <h3 class='page-title1'>Professional Photography in New York & LA</h3>
           <div class='main-btn-container'>
           <a class="main-btn1" href='/insights'>View Work</a>
               <a class='main-btn2' href='/contact'>Contact Us</a>
@@ -35,9 +38,9 @@ export default class Home1 extends Component {
         </div>  */}
         </div>
         <div class='home-content1'>
-          <h1>Ghostwriter</h1>
+          <h1>Photography</h1>
           <div class='home-content1-1'>
-          <p class='home-p'>Storytelling requires two things above all: bravery and honesty. But when the subject is yourself, sometimes you can’t see the forest for the trees. 
+          <p class='home-p'>Photography requires two things above all: bravery and honesty. But when the subject is yourself, sometimes you can’t see the forest for the trees. 
 
             </p>
 

@@ -1,33 +1,11 @@
 import React, { Component } from 'react'
-import { Button, Form} from 'react-bootstrap';
+import {Form, Button} from 'react-bootstrap'
 
-
-export default class Contact extends Component {
-  constructor() {
-    super();
-    this.state = {
-      name: '',
-      phone: '',
-      email: '',
-      company: '',
-      comments: '',
-    }
-  }
-
-  handleChange = (e) => {
-    const value = e.target.value;
-    this.setState({
-      ...this.state,
-      [e.target.name]: value,
-    });
-  };
-
+export default class Reviews extends Component {
   render() {
-    // const {addContact} = this.props
     return (
-      <>
-     
       <div class='contact-page-container'>
+        <h1>Reviews</h1>
         <div class='contact1'>
             <h2 class='contact-title'>Get in touch</h2>
             <Form>
@@ -86,10 +64,7 @@ export default class Contact extends Component {
             <h3><a class='phone' href="mailto:convertedcamper@gmail.com">GlassTop@gmail.com</a></h3>
             </div> */}
         </div>
-       
-         
-          </div>
-        </>
+      </div>
     )
   }
 }

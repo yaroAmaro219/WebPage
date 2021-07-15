@@ -41,8 +41,8 @@ function Nav1 () {
  return (
   <div style={style} class="nav-container">
     <div class='title1-container'>
-      <a style={style2} class='nav-title' href='/'>Jack Pickering </a>
-      <a style={style2} class='nav-title1' href='/'>Ghostwriter</a>
+      <a style={style2} class='nav-title' href='/'>Mark Arroyo </a>
+      <a style={style2} class='nav-title1' href='/'>Photographer</a>
     </div>
     <div style={navtext} class='nav-text'>
 <div class="dropdown">
@@ -50,7 +50,7 @@ function Nav1 () {
         <div class="dropdown-content">
           <div class="dropdown-content1">
             <div class='dropdown-column'>
-              <a class='dropdown-main' href='/write-a-biography'>Write a biogrophy</a>
+              <a class='dropdown-main' href='/write-a-biography'>Photography</a>
               <a class='dropdown-main' href='/book-editing'>Book Editing</a> 
                <a class='dropdown-main' href='/corporate-reports'>Corporate Reports</a> 
                <a class='dropdown-main' href='/fim-scripts'>Film Scripts</a> 

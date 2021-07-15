@@ -7,13 +7,33 @@
 
 
 
-.contact11{
-  transition: 1s ;
+.contact11 {
+  transition: 1s;
 }
 
 .white {
   color: white;
 }
+/* 
+.home-container {
+  padding: 99px 81px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/pexels-maria-orlova-4947568.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  background-position: 50%;
+
+} */
 
 .dropdown-title {
   display: flex;
@@ -138,7 +158,7 @@
 }
 
 .main-btn2:hover {
-  
+
   background-color: black;
   font-size: medium;
   color: white;
@@ -229,7 +249,7 @@
   /* transition-delay: 1s; */
 }
 
-p{
+p {
   font-weight: 400;
   font-size: 23px;
 }
@@ -492,7 +512,7 @@ video {
     margin: 0;
     padding: 18px !important;
     min-height: 33vw;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -745,7 +765,7 @@ p {
   margin: 0;
   padding: 21px 81px;
   min-height: 33vw;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;

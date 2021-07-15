@@ -21,10 +21,13 @@ const Menu = ({ open, ...props }) => {
         </div>
       <a href="/insights" tabIndex={tabIndex}>
         <span aria-hidden="true"></span>
-        Insights
+        Gallery
       </a>
       <a href="/about" tabIndex={tabIndex}>
        About 
+      </a>
+      <a href="/reviews" tabIndex={tabIndex}>
+       Reviews
         </a>
         {/* <a href="/team" tabIndex={tabIndex}>
        Our Team

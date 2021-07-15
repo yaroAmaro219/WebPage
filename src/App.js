@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import Insights from './components/Insights'
 import Services from './components/Services'
 import About from './components/About'
+import Reviews from './components/Reviews'
 import Nav from './components/Nav1'
 import './styles/Footer.css'
 import './styles/Home.css'
@@ -49,13 +50,17 @@ class App extends Component {
             <Insights
             />
           )} />
+          <Route exact path="/reviews" render={(props) => (
+            <Reviews
+            />
+          )} />
            <Route exact path="/services" render={(props) => (
             <Services
             />
           )}/>
         </Switch>
         <div class='container'>
-          <a class='mobile' href='/insights'><img class='img-nav' src={cloud}/>Insights</a>
+          <a class='mobile' href='/insights'><img class='img-nav' src={cloud}/>Gallery</a>
           <a class='mobile1' href='/contact'><img class='img-nav' src={stack}/>Get In Touch</a>
         </div>
         <div class='footer-container'>
