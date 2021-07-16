@@ -30,6 +30,7 @@ export default class Contact extends Component {
       <div class='contact-page-container'>
         <div class='contact1'>
             <h2 class='contact-title'>Get in touch</h2>
+            <br/>
             <Form>
             <Form.Label>Name</Form.Label>
             <Form.Control type="name" placeholder="Enter name" />
@@ -41,7 +42,9 @@ export default class Contact extends Component {
       We'll never share your email with anyone.
     </Form.Text>
               </Form.Group>
-    <textarea></textarea>
+           
+              <Form.Label>Message</Form.Label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               {/* <>
               <FloatingLabel controlId="floatingTextarea" label="Comments" className="mb-3">
     <Form.Control as="textarea" placeholder="Leave a comment here" />
@@ -54,7 +57,8 @@ export default class Contact extends Component {
     />
                 </FloatingLabel>
                 </> */}
-  <Button variant="primary" type="submit">
+              <br/>
+  <Button variant="primary" type="submit" href="mailto:yaroamari@gmail.com@gmail.com">
     Submit
   </Button>
           </Form>

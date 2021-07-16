@@ -5,9 +5,9 @@ export default class Reviews extends Component {
   render() {
     return (
       <div class='contact-page-container'>
-        <h1>Reviews</h1>
         <div class='contact1'>
-            <h2 class='contact-title'>Get in touch</h2>
+          <h2 class='contact-title'>Reviews</h2>
+          <br/>
             <Form>
             <Form.Label>Name</Form.Label>
             <Form.Control type="name" placeholder="Enter name" />
@@ -19,7 +19,10 @@ export default class Reviews extends Component {
       We'll never share your email with anyone.
     </Form.Text>
               </Form.Group>
-    <textarea></textarea>
+              
+              <Form.Label>Review</Form.Label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+ 
               {/* <>
               <FloatingLabel controlId="floatingTextarea" label="Comments" className="mb-3">
     <Form.Control as="textarea" placeholder="Leave a comment here" />
@@ -32,6 +35,7 @@ export default class Reviews extends Component {
     />
                 </FloatingLabel>
                 </> */}
+            <br/>
   <Button variant="primary" type="submit">
     Submit
   </Button>
