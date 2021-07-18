@@ -21,7 +21,7 @@ const Menu = ({ open, ...props }) => {
         </div>
       <a href="/insights" tabIndex={tabIndex}>
         <span aria-hidden="true"></span>
-        Gallery
+        Portfolio
       </a>
       <a href="/about" tabIndex={tabIndex}>
        About 

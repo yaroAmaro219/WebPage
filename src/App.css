@@ -813,9 +813,9 @@ a {
   text-decoration: none;
 }
 
-img {
-  width: unset !important;
-}
+/* img {
+  width: 10rem !important;
+} */
 
 h1 {
   margin: 0;
@@ -923,3 +923,4 @@ a {
     transform: rotate(360deg);
   }
 }
+
