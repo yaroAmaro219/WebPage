@@ -64,7 +64,7 @@
 
   overflow: hidden;
   -webkit-background-size: cover; */
-  background-image: url("../images/pexels-maria-orlova-4947568.jpg");
+  background-image: url("../images/MTenn.JPG");
   background-attachment: scroll;
   display: flex;
   flex-direction: column;
@@ -78,7 +78,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  /* height: 100%; */
   overflow: hidden;
   -webkit-background-size: cover;
   background-position: 50% ;
@@ -121,8 +121,8 @@ text-align: start;
 
   .home-container {
     flex-direction: column;
-    height: 777px !important;
-    background-position: 50%  !important;
+    height: 333px !important;
+    background-position: 1%  !important;
   }
 
   .home-sub-content {

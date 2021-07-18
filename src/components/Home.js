@@ -38,27 +38,13 @@ export default class Home1 extends Component {
         </div>  */}
         </div>
         <div class='home-content1'>
-          <h1>Photography</h1>
+          <h1>Work</h1>
           <div class='home-content1-1'>
-          <p class='home-p'>Photography requires two things above all: bravery and honesty. But when the subject is yourself, sometimes you can’t see the forest for the trees. 
+          <p class='home-p'>Web development is a constantly evolving field. I sprecialize in developing websites for small business's and portfolio website's for individuals.  
 
             </p>
 
-            <p class='home-p'>Why do you need a partner? There are many reasons. For one, as all diarists know, there are few things more therapeutic than writing about one’s day. Another I             particularly like is that oftentimes we forget the best things about ourselves. 
-
-            Generally speaking, there are four different outcomes to the ghostwriting process. 
-
-            Collaborating on a full-length memoir. 
-
-            Collaborating on a book proposal (a roughly 40-60 page document with a pitch for literary agents and publishers, an outline consisting of a list of chapters, and a             sample chapter). 
-
-            An article, or a condensed account of your and your family’s life. This makes a marvelous present for an older relative, or a reference for your kids.
-
-            A research collaboration, where you’ll have the resources (for example, the audio files from our interviews and the timeline I’ll build of your life) to write the            memoir yourself. 
-
-            In any and every case, we’ll have a contract so you can stop the project at any time. Of course, any work that we produce together belongs to you.
-
-            Sound interesting? Book a free 30-minute consultation to learn more.</p>
+            <p class='home-p'></p>
             </div>
         </div>
         </>

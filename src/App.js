@@ -60,7 +60,7 @@ class App extends Component {
           )}/>
         </Switch>
         <div class='container'>
-          <a class='mobile' href='/insights'><img class='img-nav' src={cloud}/>Gallery</a>
+          <a class='mobile' href='/insights'><img class='img-nav' src={cloud}/>Portfolio</a>
           <a class='mobile1' href='/contact'><img class='img-nav' src={stack}/>Get In Touch</a>
         </div>
         <div class='footer-container'>

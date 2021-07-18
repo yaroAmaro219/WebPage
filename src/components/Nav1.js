@@ -41,8 +41,8 @@ function Nav1 () {
  return (
   <div style={style} class="nav-container">
     <div class='title1-container'>
-      <a style={style2} class='nav-title' href='/'>Mark Arroyo </a>
-      <a style={style2} class='nav-title1' href='/'>Photographer</a>
+      <a style={style2} class='nav-title' href='/'>Artemie Amari </a>
+      {/* <a style={style2} class='nav-title1' href='/'>Photographer</a> */}
     </div>
     <div style={navtext} class='nav-text'>
 <div class="dropdown">

@@ -10,7 +10,7 @@ export default class Insights extends Component {
       <div class='insights-container'>
         <div class='insights-page'>
           <br/>
-          <h1 class='about-title'>Gallery</h1>
+          <h1 class='about-title'>Portfolio</h1>
           <br/>
           <div class='gallery'>
             <img class='gallery-img' src={image1} />
