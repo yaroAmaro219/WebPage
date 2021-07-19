@@ -28,29 +28,13 @@ export default class Home1 extends Component {
               </div>
             </div>
         </div> 
-        {/* <div class='home1'>
-          <h2 class='standout'>How we stand out - we are proactive experts</h2>
-          <p>We focus on incorporating Agile development priniciples keeping our process as lightweight and efficient as possible.</p>
-          <div class='button-home-container'>
-            <a class="main-btn" href='/contact'>Request Consultation</a>
-            </div>
-        </div>
-        <div class='home1'id='casestudies'>
-          <h2>Case Studies</h2>
-          <p>We have worked with several businesses to enhance their digital precense and increase their business income through improved online accesability.</p>
-          <div class='button-home-container'>
-            <a class="main-btn" href='/portfolio'>View Portfolio</a>
-            </div>
-        </div>  */}
+        
         </div>
         <div class='home-content1'>
-          <h1>Work</h1>
+          <h1></h1>
           <div class='home-content1-1'>
-          <p class='home-p'>Web development is a constantly evolving field. I sprecialize in developing websites for small business's and portfolio website's for individuals.  
-
+          <p class='home-p'>Web development is a constantly evolving field. I specialize in developing websites for small business's and portfolio website's for individuals. Feel free to get in touch with any questions.  
             </p>
-
-
             <div>
             {/* <h3 class="feature">Seen In:</h3> */}
             <div class="home-feature">

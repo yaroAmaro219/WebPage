@@ -14,6 +14,13 @@
   background-position: 50% ;
 }
 
+a.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .insights-page {
   background-color: grey;
   width: 100%;
@@ -26,9 +33,23 @@
 }
 
 .portfolio-container {
-  padding: 102px 18px;
+  padding: 18px;
+ 
+}
+
+.portfolio-background {
+  height: 333px !important;
   background-image: url("../images/MTenn.JPG");
   background-repeat: no-repeat;
-  /* background-position: 90% -11vw; */
-  
+  background-attachment: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  -webkit-background-size: cover;
 }

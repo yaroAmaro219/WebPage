@@ -9,24 +9,23 @@ import Coca from '../images/Favicon_Icon.svg'
 import Pups from '../images/PowerPups.jpg'
 import Tennis from '../images/Screen Shot 2020-07-09 at 4.30.18 PM.png'
 import Youtube from '../images/Screen Shot 2020-07-16 at 8.25.05 AM.png'
-import Nav from './Testnav'
 
 export default class Insights extends Component {
   render() {
     return (
-   <>
-        <Nav/>
+      <>
+        <div class='portfolio-background'>
+        </div>
         <div class='portfolio-container' id='portfolio'>
           <h1>Portfolio</h1>
           <div class="projects-header">
             <h2>These Are Some of My Favorite Projects</h2>
           </div>
           <div className="portfolio">
-            <div class="work-piece">
-              
-              <a target="_blank" rel="noopener noreferrer" class="work" href="http://tenniscoachesofnyc.com/">
+            <div class="work-piece">   
+              <a target="_blank" rel="noopener noreferrer" class="work" href="https://www.totallytennis.io/">
                 <img class="tennis-ball" src={Ball} />
-                Tennis Camp
+                Totally Tennis
               </a>
               <a target="_blank" rel="noopener noreferrer" class="css-13nadwe" class="work" href="https://github.com/yaroAmaro219/Tennis-Camp">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -57,23 +56,15 @@ export default class Insights extends Component {
               <p class="highlights"> UX, Full Stack, React.js, Ruby on Rails, PostgreSQL, Authentication</p>
             </div>
 
-            <div className="work-piece">
-         
-              <a target="_blank" rel="noopener noreferrer" class="css-13nadwe" class="work" href="http://amari.surge.sh/">
-                AMARI
-              </a>
-              <p>A Personal Website that implements three.js and react-three-fiber and other visual effects</p>
-              <p class="highlights"> React.js, Three.js</p>
-            </div>
-            <div className="work-piece">
+            
+            {/* <div className="work-piece">
               <a target="_blank" rel="noopener noreferrer" class="css-13nadwe" class="work" href="http://www.ivka.com/">
                 IVKA
               </a>
               <p>An Urban Greenhouse startup in Brooklyn</p>
               <p class="highlights"> React.js, Stripe, CSS</p>
-            </div>
+            </div> */}
             <div class="work-piece">
-              
               <a target="_blank" rel="noopener noreferrer" class="work" href="http://dogsittingnyc.com/">
                 <img class="tennis-ball" src={Pups} />
                 Dog Sitting
