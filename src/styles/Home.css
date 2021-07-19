@@ -102,12 +102,12 @@ text-align: start;
 }
 
 img.tennis {
-  width: 10rem;
+  width: 20rem;
 }
 
-/* img.youtube {
-  width: 10rem;
-} */
+img.youtube {
+  width: 20rem;
+}
 
 img.tennis-ball {
   width: 10rem;

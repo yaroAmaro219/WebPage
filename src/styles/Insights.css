@@ -24,3 +24,11 @@
   height: 243px;
   padding: 9px;
 }
+
+.portfolio-container {
+  padding: 102px 18px;
+  background-image: url("../images/MTenn.JPG");
+  background-repeat: no-repeat;
+  /* background-position: 90% -11vw; */
+  
+}
